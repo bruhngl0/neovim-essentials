@@ -1,0 +1,50 @@
+hey this is my first neoVim text, you are so cool!
+
+
+-ya so my first thing to learn here was there are three modes, first is the NORMAL MODE, where every key on the keyboard follow a shortcut command, 
+-The second mode insert mode, where you just press <i> to enter the INSERT MODE. this mode is where you write all the code in the editor.
+-The third mode is the COMMAND LINE mode, which follows the command after you press :, 
+
+eg if you <:w> this will save(write) to the file, but you cant do this in INSERT MODE, for that you have to come back to the NORMAL MODE for accessing the COMMAND LINE. 
+
+-To save/write the file and quit at once, you can press <:wq> command 
+
+-To quit the file without saving the text you can press <:q!> command
+
+
+NORMAL MODE COMMANDS TO MOVE INSIDE THE TERMINAL
+-To move LEFT - <h>
+-To move RIGHT - <l>
+-To move up, down - <k>, <j>
+
+-TO go to the end of the line press -- shift+$
+-To go to the start of the line Press -- <0>
+
+            -TO to go the first character of the line press <shift+^>
+
+
+-TO find any character in the line, press <f> OR <t> followed by the character <{> or <a> etc. // note- dont press f/t and char* simultaneously
+- TO FIND THE NEXT CHARACTER IN THE LINE PRESS <;> EG --       LIFE IS GOOD ANYWAYS- -AND YOU COMMAND <f> FOLLOWED BY <a> first the cursor will move to the first A of anyways and then <;> will take you to
+the next A of anyways and use <,> to come back to previous character if you moved cursor to the next char
+
+-in the above command if you want to go backwards- press - capital <T> followed by the <character> and then press <;> to find the same characters backward //NOT IMPORTANT TOO COMPLEX 
+
+-TO move through the first character of each word press <w> , press <b> for backwords
+-TO move through the last character of each word press <e>
+
+-TO move through the blocks/paragraph of the code tweak with <shift+{> OR <shift+}> (opening and closing curly braces)
+-TO Move to the first line of the code press <gg> and to go to the last line of the code press <capital G>/ <G>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+NUMBERS HAVE TOO MUCH OF IMPORTANCE IN NVIM, 
+
+as we saw that <gg> and <G> takes you to the start and the end of the code, similary, you can switch fast to any line of the code by giving G the value of
+that line ---- if you want to go to the line 17, press <17G>, only works when :set no relativenumber 
+
+also if you cant see any numbers on the start of your line, please type :set number, to remover :set nonumber, for relative numbers :set relativenumber , :set norelativenumber---
+
+how do these relativenumber help?--- imagine if you have to go on line 14, just press <14k> //only work for relative numbers
+
