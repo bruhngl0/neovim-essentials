@@ -48,3 +48,7 @@ also if you cant see any numbers on the start of your line, please type :set num
 
 how do these relativenumber help?--- imagine if you have to go on line 14, just press <14k> //only work for relative numbers
 
+to go inside the terminal press <:terminal> / or prefer using the default cmd/ why would you want to use neovims terminal when you have mac's inbuilt on its own. 
+
+
+-------------------------------------------------------------------------------END OF FIRST SESSION--------------------------------------------------------------------------------------------------------------`
