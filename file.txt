@@ -48,7 +48,27 @@ also if you cant see any numbers on the start of your line, please type :set num
 
 how do these relativenumber help?--- imagine if you have to go on line 14, just press <14k> //only work for relative numbers
 
-to go inside the terminal press <:terminal> / or prefer using the default cmd/ why would you want to use neovims terminal when you have mac's inbuilt on its own. 
+to go inside the terminal press <:terminal> / or prefer using the default cmd/ why would you want to use neovims terminal when you have mac's inbuilt on its own
 
 
--------------------------------------------------------------------------------END OF FIRST SESSION--------------------------------------------------------------------------------------------------------------`
+
+----------------------------------------------------------------END OF FIRST SESSION---------------------------------------------------------------------`
+
+surround -----  ys + motion (i+w) + <character you need to replace with>
+
+ex--- lets say we have to assign a string--
+
+var a string = life is good
+
+and now compiler gives me the error that cant recognize string, wrap it around double quotes-----
+
+so i use auto-surroundings--
+
+i go to normal mode and follow these steps--
+
+first i am doung ys--- yank surroundings, which takes you to the visual mode, and the follow the motion say shift+$ to select the
+text to the end of the line--- and the press characters you want to replace it with "", ''
+
+var b string = 'life is good'
+
+'SORTED' 
