@@ -54,6 +54,8 @@ to go inside the terminal press <:terminal> / or prefer using the default cmd/ w
 
 ----------------------------------------------------------------END OF FIRST SESSION---------------------------------------------------------------------`
 
+AUTO SURROUND TEXT:  
+
 surround -----  ys + motion (i+w) + <character you need to replace with>
 
 ex--- lets say we have to assign a string--
@@ -72,3 +74,34 @@ text to the end of the line--- and the press characters you want to replace it w
 var b string = 'life is good'
 
 'SORTED' 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+GIT COMMANDS TO PUSH CODE---
+
+press SPACE (leader key) + lg to open git terminal--
+
+a --add commit
+c --commit a message
+P --push a change
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+OPEN TERMINAL:
+
+:terminal --- to open the terminal
+
+press ctrl\  + ctrln -- to get into the normal mode from terminal
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+SPLIT TERMINAL:
+
+leader key SPACE + sh --- horizontal tab
+leader key SPACE + sh --- vertical tab
+leader key SPACE + sx --- close tab
+
+ctrl+h,j,k,l to move 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
